@@ -46,7 +46,7 @@ alphabets.sort()
 numerics.sort()
 print(alphabets, numerics)
 
-# Reverse it to descending order using sort(reverse=True)
+# Reverse and sort a list to descending order using sort(reverse=True)
 alphas = ["B", "D", "C", "A", "Z", "Y", "X"]
 nums = [0,9,8,7,6,5,4,3,2,1]
 alphas.sort(reverse=True)
