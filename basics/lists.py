@@ -19,8 +19,8 @@ print(others[1:3])
 
 
 # Access the item of a list which is the item of another list
-listOfLists = [["Kora", "Kent", "Kim"], ["Kelvin", "Karen", "Jim"], ["Kelvin", "Karen", "Jim", "Kai"]]
-print(listOfLists[0][0])
+list_of_lists = [["Kora", "Kent", "Kim"], ["Kelvin", "Karen", "Jim"], ["Kelvin", "Karen", "Jim", "Kai"]]
+print(list_of_lists[0][0])
 
 # Modify a list item
 names = ["Kelvin", "Karen", "Jim", "Kai", "Mora", "Roy"]
