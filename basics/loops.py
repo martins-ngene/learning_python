@@ -28,3 +28,8 @@ for x in letters:
     if x == "C":
         continue
     print(x)
+
+# Using the range function
+    utensils = ["plate", "spoon", "pot", "tray", "knife"]
+    for item in range(len(utensils)):
+        print(utensils[item])
