@@ -30,6 +30,7 @@ def to_ascii_translator(word):
         "X": "88",
         "Y": "89",
         "Z": "90",
+        " ": " ",
     }
 
     translated = ""
@@ -51,5 +52,5 @@ def to_ascii_translator(word):
 print(to_ascii_translator(input("Enter a word: ")))
 
 '''
-I need to refactor the above function to check if the word is not an alphabet and also to include paragraphs.
+I need to refactor the above function to check if the word is not an alphabet.
 '''
